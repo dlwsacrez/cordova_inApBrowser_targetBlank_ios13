@@ -28,6 +28,8 @@ var app = {
     // 'pause', 'resume', etc.
     onDeviceReady: function() {
         this.receivedEvent('deviceready');
+        // open example website (google) in the inAppBrowser with target _blank
+        const authWindow = cordova.InAppBrowser.open('https://www.google.com/', '_blank', 'usewkwebview=yes');
     },
 
     // Update DOM on a Received Event
