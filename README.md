@@ -1,0 +1,2 @@
+# cordova_inApBrowser_targetBlank_ios13
+Bug report
